@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 17.4 S013 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue May 31 16:37:22 2022
+\t (00:00:00)         Host=BELSPC0110 User=jensming Pid=6936 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession jensming -file C:/Users/jensming/AppData/Local/Temp/#Taaaail11304.tmp -pname PAD30CIR20D -data C:/Users/jensming/AppData/Local/Temp/#Taaaaio11304.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\t (00:00:03)     Journal end - Tue May 31 16:37:25 2022
