@@ -1,0 +1,180 @@
+\t (00:06:06) allegro 17.4 S013 Windows SPB 64-bit Edition
+\t (00:06:06)     Journal start - Thu Apr 28 15:56:35 2022
+\t (00:06:06)         Host=BELSPC0110 User=jensming Pid=8096 CPUs=4
+\t (00:06:06) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:06:06) 
+\d (00:06:06) Design opened: C:/Users/jensming/Desktop/Tutorial/Tutorial/Lib/symbols/DIP100_20_W300_L975.dra
+\i (00:06:07) generaledit 
+\i (00:07:01) xname_flush 
+\i (00:07:14) xname_flush '!' 
+\i (00:10:28) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:10:52) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:11:00) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:11:01) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:11:01) QtSignal ColorVisibilityPane CVPGlobalVisRestore clicked
+\i (00:11:03) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:11:47) display toolbar param 
+\i (00:11:54) QtSignal spbtoolbareditor spbtoolbareditor closed
+\i (00:11:54) generaledit 
+\i (00:11:59) display toolbar param 
+\i (00:12:07) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:12:12) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 0
+\i (00:12:12) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 6
+\i (00:12:12) QtSignal spbtoolbareditor_tools spbtooltab_list itemSelectionChanged AppMode
+\i (00:12:13) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 6 AppMode
+\i (00:12:36) QtSignal spbtoolbareditor spbtoolbareditor_tabView currentChanged Commands
+\i (00:12:36) QtSignal spbtoolbareditor spbtoolbareditor_tabView currentChanged ToolBars
+\i (00:12:43) QtSignal spbtoolbareditor_tools spbtooltab_lineedit editingFinished AppMode
+\i (00:12:43) QtSignal spbtoolbareditor spbtoolbareditor_closeBtn clicked
+\i (00:12:43) generaledit 
+\i (00:12:50) display toolbar param 
+\i (00:12:52) QtSignal spbtoolbareditor_tools spbtooltab_new clicked
+\i (00:13:02) QtSignal spbtoolbareditor_tools spbinputdialog closed
+\i (00:13:03) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:13:04) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:13:05) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:13:05) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:13:06) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:13:20) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 0
+\i (00:13:20) QtSignal spbtoolbareditor_tools spbtooltab_lineedit editingFinished File
+\i (00:13:20) QtSignal spbtoolbareditor_tools spbtooltab_new clicked
+\i (00:13:23) QtSignal spbinputdialog spbinputdialog_linedit editingFinished Place
+\i (00:13:23) QtSignal spbinputdialog spbinputdialog_ok clicked
+\i (00:13:23) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:23) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:25) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:25) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:26) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:27) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:27) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 14 Place
+\i (00:13:30) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 14
+\i (00:13:30) QtSignal spbtoolbareditor_tools spbtooltab_list itemSelectionChanged Place
+\i (00:13:30) QtSignal spbtoolbareditor_tools spbtooltab_lineedit editingFinished Place
+\i (00:13:30) QtSignal spbtoolbareditor_tools spbtooltab_delete clicked
+\i (00:13:32) QtSignal spbtoolbareditor_tools spbtooltab_lineedit editingFinished ContextMenu
+\i (00:13:32) QtSignal spbtoolbareditor spbtoolbareditor_closeBtn clicked
+\i (00:13:32) generaledit 
+\i (00:13:58) enved 
+\i (00:13:58) setwindow form.prfedit
+\i (00:13:58) FORM prfedit treelist  My_favorites 
+\i (00:13:58) setwindow pcb
+\i (00:13:58) generaledit 
+\i (00:14:03) setwindow form.prfedit
+\i (00:14:03) FORM prfedit treelist  UI 
+\i (00:14:07) FORM prfedit treelist  Browse UI 
+\i (00:14:20) FORM prfedit nolast_directory YES 
+\i (00:14:21) FORM prfedit nolast_file YES 
+\i (00:14:42) FORM prfedit treelist  File_management 
+\i (00:14:44) FORM prfedit treelist  Output_dir File_management 
+\i (00:15:03) FORM prfedit ads_sdart artwork 
+\i (00:15:11) FORM prfedit ads_sdlog logs 
+\i (00:15:12) FORM prfedit ads_sdmcad plots 
+\i (00:15:21) FORM prfedit ads_sdmcad  
+\i (00:15:24) FORM prfedit ads_sdplot plots 
+\i (00:15:29) FORM prfedit ads_sdreport reports 
+\i (00:15:34) FORM prfedit dump_library_directory dumplib 
+\i (00:17:58) FORM prfedit treelist  Paths 
+\i (00:18:02) FORM prfedit treelist  Library Paths 
+\i (00:18:16) FORM prfedit techpath  
+\i (00:19:33) FORM prfedit techpath  
+\i (00:19:57) FORM prfedit techpath  
+\i (00:20:58) FORM prfedit techpath  
+\i (00:21:21) FORM prfedit techpath  
+\i (00:22:00) FORM prfedit techpath  
+\i (00:22:23) FORM prfedit techpath  
+\i (00:22:36) FORM prfedit techpath  
+\i (00:22:45) FORM prfedit techpath  
+\i (00:23:05) FORM prfedit modulepath  
+\i (00:23:23) FORM prfedit modulepath  
+\i (00:23:39) FORM prfedit padpath  
+\i (00:24:30) FORM prfedit parampath  
+\i (00:24:46) FORM prfedit psmpath  
+\i (00:25:48) FORM prfedit treelist  Autosave File_management 
+\i (00:25:53) FORM prfedit autosave_time 10 
+\i (00:26:26) FORM prfedit treelist  Library Paths 
+\i (00:26:29) FORM prfedit techpath  
+\i (00:26:34) FORM prfedit treelist  Autosave File_management 
+\i (00:27:20) FORM prfedit treelist  Library Paths 
+\i (00:27:52) FORM prfedit treelist  Display 
+\i (00:28:02) FORM prfedit treelist  Output_dir File_management 
+\i (00:28:07) FORM prfedit treelist  Config Paths 
+\i (00:28:36) FORM prfedit done  
+\i (00:29:29) setwindow form.mini
+\i (00:29:29) FORM mini class ETCH 
+\t (00:29:29) Grids are drawn 20.0, 20.0 apart for enhanced viewing.
+\i (00:29:36) FORM mini subclass BOTTOM 
+\i (00:29:37) FORM mini subcolor 0 
+\i (00:29:37) FORM mini subcolor 1 
+\i (00:29:38) FORM mini subcolor 0 
+\i (00:29:38) FORM mini subcolor 1 
+\i (00:29:39) FORM mini subclass TOP 
+\i (00:29:45) setwindow pcb
+\i (00:29:45) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (00:29:48) QtSignal CVPLayerGrid CVPButtonPinBottom rightClicked
+\i (00:29:50) QtSignal Popup CVPColorPickerButton17 clicked
+\i (00:30:05) QtSignal CVPLayerGrid CVPButtonEtchBottom rightClicked
+\i (00:30:08) QtSignal Popup CVPColorPickerButton17 clicked
+\i (00:31:54) setwindow form.mini
+\i (00:31:54) FORM mini class 'ANTI ETCH' 
+\i (00:31:56) FORM mini class ETCH 
+\i (00:32:53) setwindow pcb
+\i (00:32:53) color192 
+\i (00:32:54) generaledit 
+\i (00:34:10) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor +
+\i (00:34:10) QtSignal Etch
+\i (00:34:18) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Plane Etch 0
+\i (00:34:18) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:34:18) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:34:19) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Inner Etch 0
+\i (00:34:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:34:19) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:34:20) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Plane Etch 1
+\i (00:34:20) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:34:20) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:34:20) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Inner Etch 1
+\i (00:34:20) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:34:20) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:42:17) xname_flush 
+\i (00:44:12) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor +
+\i (00:44:12) QtSignal Drc
+\i (00:44:13) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor +
+\i (00:44:13) QtSignal Via
+\i (00:44:13) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor +
+\i (00:44:13) QtSignal Etch
+\i (00:45:31) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (00:45:37) QtSignal CVDDisplayGroup CVDTempHighlightButton clicked
+\i (00:45:42) QtSignal CVDDisplayGroup CVDAlignmentGuidesButton clicked
+\i (00:45:45) QtSignal CVDDisplayGroup CVDAlignmentGuidesButton clicked
+\i (00:45:48) QtSignal CVDColorTable CVDColorButton1:31 clicked
+\i (00:45:50) QtSignal CVDDisplayGroup CVDAlignmentGuidesButton clicked
+\i (00:46:04) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:46:05) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:51:35) param out 
+\i (00:51:40) setwindow form.parm_out
+\i (00:51:40) FORM parm_out parmtree  'Color Palette' 
+\i (00:51:41) FORM parm_out parmtree 'MULTISEL YES' 'Color Palette' 
+\i (00:51:46) FORM parm_out parmtree  'Color Layer' 
+\i (00:51:46) FORM parm_out parmtree 'MULTISEL YES' 'Color Layer' 
+\i (00:52:18) FORM parm_out cancel  
+\i (00:52:19) setwindow pcb
+\i (00:52:19) generaledit 
+\i (00:52:25) prmed 
+\i (00:52:33) setwindow form.prmedit
+\i (00:52:33) FORM prmedit text  
+\i (00:52:38) FORM prmedit text_setup_button  
+\i (00:53:31) setwindow form.textblock
+\i (00:53:31) FORM textblock cancel  
+\i (00:53:32) setwindow form.prmedit
+\i (00:53:32) FORM prmedit cancel  
+\i (00:53:32) setwindow pcb
+\i (00:53:32) generaledit 
+\i (00:53:39) techfile out 
+\i (00:53:51) setwindow form.tech_out
+\i (00:53:51) FORM tech_out cancel  
+\i (00:53:51) setwindow pcb
+\i (00:53:51) generaledit 
+\i (00:54:55) new 
+\e (00:54:55) Do you want to save the changes you made to DIP100_20_W300_L975.dra?
+\i (00:54:59) fillin no 
+\i (00:57:06) newdrawfillin "ece174tutorial.brd" "Board"
+\t (00:57:06)     Journal end - Thu Apr 28 16:47:35 2022
