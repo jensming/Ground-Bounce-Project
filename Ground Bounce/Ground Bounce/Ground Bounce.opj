@@ -1,0 +1,260 @@
+(ExpressProject "Ground Bounce"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S013 (3906575)  [12/6/2020]-[05/31/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\localproject.olb"
+        (Type "Schematic Library"))
+      (File "..\lib\ee174tutorial.olb"
+        (Type "Schematic Library"))
+      (File "c:\cadence\spb_17.4\tools\capture\library\regulator.olb"
+        (Type "Schematic Library"))
+      (File
+         "..\lib\symbols\con-sma-edge-s-20220530t231007z-001\con-sma-edge-s\con-sma-edge-s.olb"
+        (Type "Schematic Library"))
+      (File
+         "..\lib\con-sma-edge-s-20220530t231007z-001\con-sma-edge-s\con-sma-edge-s.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory"
+       "C:\Users\jensming\Desktop\Ground Bounce\Ground Bounce\Ground Bounce\pcb")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\ground bounce.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE.DRC")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\ground bounce.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout"
+    (File ".\pcb\groundbounce.brd"
+      (Type "Board File")
+      (OutputBoard ".\pcb\groundbounce.brd")
+      (NetListPath ".\pcb")
+      (ActiveBoard "0")))
+  (Folder "Outputs"
+    (File ".\ground bounce.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (CON-SMA-EDGE-S
+      (FullPartName "CON-SMA-EDGE-S.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\LIB\CON-SMA-EDGE-S-20220530T231007Z-001\CON-SMA-EDGE-S\CON-SMA-EDGE-S.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("C NP"
+      (FullPartName "C NP.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    (74HC04_12
+      (FullPartName "74HC04_12.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE.DSN")
+      (DeviceIndex "4"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_CIRCLE
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM7805/TO
+      (FullPartName "LM7805/TO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM7806/TO
+      (FullPartName "LM7806/TO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    ("2Pin Header"
+      (FullPartName "2Pin Header.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\LIB\EE174TUTORIAL.OLB")
+      (DeviceIndex "0"))
+    ("Coax Connector"
+      (FullPartName "Coax Connector.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\LIB\LOCALPROJECT.OLB")
+      (DeviceIndex "0"))
+    (74HC00
+      (FullPartName "74HC00.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\TUTORIAL\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\TUTORIAL\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (74HC04
+      (FullPartName "74HC04.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\74HC.OLB")
+      (DeviceIndex "4"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SN74AHC174
+      (FullPartName "SN74AHC174.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\TUTORIAL\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (SN74AC174
+      (FullPartName "SN74AC174.Normal")
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\TUTORIAL\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (EE174TitleBlock
+      (LibraryName
+         "C:\USERS\JENSMING\DESKTOP\TUTORIAL\TUTORIAL\LIB\EE174REFLIB.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "jensming")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\jensming\desktop\ground bounce\ground bounce\ground bounce\ground bounce.dsn")
+      (Path "Design Resources"
+         "c:\users\jensming\desktop\ground bounce\ground bounce\ground bounce\ground bounce.dsn"
+         "Ground Bounce")
+      (Path "Design Resources"
+         "c:\users\jensming\desktop\ground bounce\ground bounce\ground bounce\ground bounce.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Select "Design Resources" "Library"
+         "c:\users\jensming\desktop\ground bounce\ground bounce\lib\symbols\con-sma-edge-s-20220530t231007z-001\con-sma-edge-s\con-sma-edge-s.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 829"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 847")
+        (Scroll "-242 0")
+        (Zoom "84")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE.DSN")
+      (Schematic "Ground Bounce")
+      (Page "1 Revisions"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 5 24 5 1674 24 847")
+        (Scroll "-276 11")
+        (Zoom "79")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\JENSMING\DESKTOP\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE\GROUND BOUNCE.DSN")
+      (Schematic "Ground Bounce")
+      (Page "2 Ground Bounce Test Circuit")))
+  (ISPCBBASICLICENSE "false"))
