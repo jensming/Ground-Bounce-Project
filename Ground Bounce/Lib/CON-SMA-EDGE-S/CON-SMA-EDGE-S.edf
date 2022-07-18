@@ -1,0 +1,333 @@
+
+(EDIF
+  (rename CON_45_SMA_45_EDGE_45_S "CON-SMA-EDGE-S")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 03 29 01 04 16)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename CON_45_SMA_45_EDGE_45_S "CON-SMA-EDGE-S")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename CON_45_SMA_45_EDGE_45_S "CON-SMA-EDGE-S")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename VALUE "Value") (string "CON-SMA-EDGE-S"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "G1")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2__1 "2__1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "G2")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2__2 "2__2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "G3")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2__3 "2__3")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "G4")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -13000 -30000) (pt 10000 14000)))
+            (portImplementation
+              (name &1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 10000)
+                    (pt -10000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 0)
+                    (pt -10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2__1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 -10000)
+                    (pt -10000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2__2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 -20000)
+                    (pt -10000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2__3)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 -30000)
+                    (pt -10000 -30000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (circle (pt -4000 10000) (pt 4000 10000))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4000 6000) (pt 0 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 6000) (pt 4000 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt -9000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -13000 13000) (pt -10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -13000 7000) (pt -10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 6000) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (circle (pt -1000 0) (pt 1000 0))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 10000) (pt 10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 0 0)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -15000 16000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -16000 -47000))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 0 -33000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -33000) (pt -3000 -33000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -33000) (pt 3000 -33000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -3000 -33000) (pt -5000 -36000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -33000) (pt -2000 -36000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 3000 -33000) (pt 1000 -36000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -13000 3000) (pt -10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -13000 -33000) (pt -10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt -9000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt 0 0)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "RFSOLUTIONS_CON-SMA-EDGE-S"))
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Purchase_URL "Purchase_URL")
+              (string
+              (stringDisplay "https://pricing.snapeda.com/search/part/CON-SMA-EDGE-S/?ref=eda"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "RF Solutions"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "In Stock"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+SMA Connector Jack, Female Socket - Board Edge, End Launch Solder
+"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "CON-SMA-EDGE-S"))
+            )
+          )
+        )
+      )
+    )
+  )
+)
